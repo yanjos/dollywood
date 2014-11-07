@@ -4,6 +4,3 @@
 .booking-path label.required:after {
     content:'*'
 }
-#packageResults.room-extras {
-    display:none!important;
-}
