@@ -1,0 +1,9 @@
+#no-results-messaging .message-dotted {
+    display:block!important;
+}
+.booking-path label.required:after {
+    content:'*'
+}
+#packageResults.room-extras {
+    display:none!important;
+}
