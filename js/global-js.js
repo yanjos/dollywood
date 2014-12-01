@@ -164,7 +164,7 @@ $(document).ready(function(){
 	$(document).ready(function(){
 		$('.tag-manager script').remove();
         /*Moves Policies to the bottom of custom body right when lower than 768 and when wider than 769 it move it back to original position in HTML*/
-        /*if(windowSize < 768 && $('.reservation-policies').length){
+        if($(window).width() < 768 && $('.reservation-policies').length){
                 $('.custom-body-right').append('<div id="custom-mobile-policies"></div>');              
                 $('#custom-mobile-policies').append($('.reservation-policies'));
         }
@@ -176,6 +176,6 @@ $(document).ready(function(){
             }else if (windowSize > 769 && $('.reservation-policies').length){
                 $('.your-reservation dl').last().append($('.reservation-policies'));
             }
-        });*/
+        });
     });
 </script>
