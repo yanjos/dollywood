@@ -164,16 +164,16 @@ $(document).ready(function(){
 	$(document).ready(function(){
 		$('.tag-manager script').remove();
         /*Moves Policies to the bottom of custom body right when lower than 768 and when wider than 769 it move it back to original position in HTML*/
-        if($(window).width() < 768 && $('.reservation-policies').length){
+        if($(window).width() < 767 && $('.reservation-policies').length){
                 $('.custom-body-right').append('<div id="custom-mobile-policies"></div>');              
                 $('#custom-mobile-policies').append($('.reservation-policies'));
         }
         $(window).on('resize', function(event){
             var windowSize = $(window).width(); // Could've done $(this).width()
-            if(windowSize < 768 && $('.reservation-policies').length){
+            if(windowSize < 767 && $('.reservation-policies').length){
                 $('.custom-body-right').append('<div id="custom-mobile-policies"></div>');              
                 $('#custom-mobile-policies').append($('.reservation-policies'));
-            }else if (windowSize > 769 && $('.reservation-policies').length){
+            }else if (windowSize > 768 && $('.reservation-policies').length){
                 $('.your-reservation dl').last().append($('.reservation-policies'));
             }
         });
