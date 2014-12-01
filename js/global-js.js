@@ -1,5 +1,9 @@
 <script>
 /*LATEST GLOBAL*/
+$(document).ready(function(){
+  /*Makes Grand Total dollar amount bold*/
+  $('#ui-resv-grandtotalamount').closest('p').css('font-weight','bold');
+});
 $(window).load(function(){
 /*Adds class to sign in when signed out*/
 if(!$('.welcome-message').length){
@@ -142,7 +146,7 @@ $(document).ready(function(){
     }
 
     //Can't change MCP default calendar...
-    $('.ui-datepicker-trigger').attr('src','//images.webhotel.microsdc.us/LASLC-v2/assets/webhotel/calendar-icon.png');
+    $('.ui-datepicker-trigger').attr('src','//images.webhotel.microsdc.us/global_tenant/get/w/18/h/17/calendar_icon.jpg');
 
     //Constantin to fix
     $('.custom-quick-search .more-btn.toggle-link').on('click', function(e) {
@@ -159,7 +163,19 @@ $(document).ready(function(){
 </script><script>
 	$(document).ready(function(){
 		$('.tag-manager script').remove();
-                /*Adds different calendar icon*/
-                $('.ui-datepicker-trigger').attr('src','https://images.webhotel.microsdc.us/global_tenant/get/w/18/h/17/calendar_icon.image');
-	});
+        /*Moves Policies to the bottom of custom body right when lower than 768 and when wider than 769 it move it back to original position in HTML*/
+        /*if(windowSize < 768 && $('.reservation-policies').length){
+                $('.custom-body-right').append('<div id="custom-mobile-policies"></div>');              
+                $('#custom-mobile-policies').append($('.reservation-policies'));
+        }
+        $(window).on('resize', function(event){
+            var windowSize = $(window).width(); // Could've done $(this).width()
+            if(windowSize < 768 && $('.reservation-policies').length){
+                $('.custom-body-right').append('<div id="custom-mobile-policies"></div>');              
+                $('#custom-mobile-policies').append($('.reservation-policies'));
+            }else if (windowSize > 769 && $('.reservation-policies').length){
+                $('.your-reservation dl').last().append($('.reservation-policies'));
+            }
+        });*/
+    });
 </script>
