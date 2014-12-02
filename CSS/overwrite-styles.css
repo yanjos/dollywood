@@ -1,6 +1,44 @@
+#arrival-info, #departure-info, #login {
+    display:none!important;
+}
+
+.masthead {
+    height:120px!important;
+}
+.checkoutDay-label {
+    padding-top:8px;
+}
+select {
+    display:inline-block!important;
+}
+.ui-combobox {
+    display:none!important;
+}
+#checkoutYear, #checkinYear {
+    min-width:65px;
+}
+#checkinMonth, #checkoutMonth {
+    min-width:50px;
+}
 #no-results-messaging .message-dotted {
     display:block!important;
 }
+.custom-header {
+    height:120px!important;
+}
 .booking-path label.required:after {
     content:'*'
+}
+.confirmation-page ul {
+    padding:5px 10px;
+    margin:0!important;
+}
+#head-nav {
+    display:none;
+}
+.webkit select {
+    background:#fff url(//imageserver.microswebhotel.com/dollywood/get/w/21/h/15/dd-arrow-brown.jpg?) right center no-repeat!important;
+    height:15px!important;
+    margin-right:6px;
+    padding-right:25px!important;
 }
