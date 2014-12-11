@@ -1,7 +1,6 @@
 #arrival-info, #departure-info, #login {
     display:none!important;
 }
-
 .masthead {
     height:120px!important;
 }
@@ -37,7 +36,7 @@ select {
     display:none;
 }
 .webkit select {
-    background:#fff url(//imageserver.microswebhotel.com/dollywood/get/w/21/h/15/dd-arrow-brown.jpg?) right center no-repeat!important;
+    background:#fff url(//imageserver.microswebhotel.com/dollywood/get/w/21/h/15/dd-arrow-blue.jpg?) right center no-repeat!important;
     height:15px!important;
     margin-right:6px;
     padding-right:25px!important;
