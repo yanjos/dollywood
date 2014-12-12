@@ -10,6 +10,7 @@ $(document).ready(function(){
    /*Toggles the Enter Your Special Request area*/
    $("#special_requests h1").click(function() {
       $("#special_requests .group").toggle();
+      $(this).toggleClass('special_request-expand');
    });
   /*Makes Grand Total dollar amount bold*/
   $('#ui-resv-grandtotalamount').closest('p').css('font-weight','bold');
