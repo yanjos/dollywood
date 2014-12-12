@@ -3,6 +3,10 @@
 $(document).ready(function(){
     /*Adds Toll free number to layout*/
     $('<p class="tollFree">TOLL FREE RESERVATIONS (800)365-5996 <br/>and GROUPS (800) 365-5996</p>').insertAfter($('.availability-checker'));
+
+   /*Adds wrapper around confirmation information on confirmation page*/
+   $(".custom-reservation-rate-details, .custom-confirmation-details").wrapAll("<div class='custom-reservation-wrapper'/>");
+   
    /*Toggles the Enter Your Special Request area*/
    $("#special_requests h1").click(function() {
       $("#special_requests .group").toggle();
