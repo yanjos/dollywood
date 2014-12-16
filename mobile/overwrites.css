@@ -30,7 +30,10 @@ a#termDetailLink:hover, a#termDetailLink:active {
 }
 .header>img {
     margin-top:14px;
-    width:20%;
+    width:75px;
+}
+.ui-menu-button-container{
+	width:200px;
 }
 .ui-menu-button-container .ui-btn .ui-icon {
     height:100%;
@@ -148,4 +151,10 @@ p#vipCode, p#passportNo, p#countryOfIssue, p#placeOfIssue, p#effectiveDate {
 }
 .ui-navbar li .ui-btn-icon-top .ui-btn-inner {
     padding-top:30px!important;
+}
+
+@media all and (min-width: 450px) {
+	.ui-menu-button-container{
+		width:100%;
+	}
 }
