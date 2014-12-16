@@ -157,7 +157,7 @@ $(document).ready(function(){
     }
 
     //Can't change MCP default calendar...
-    $('.ui-datepicker-trigger').attr('src','//imageserver.microswebhotel.com/dollywood/get/w/18/h/17/calendar_icon-blue.jpg');
+    $('.ui-datepicker-trigger').attr('src','//images.webhotel.microsdc.us/dollywood/get/w/18/h/17/calendar_icon-blue.jpg');
 
     //Constantin to fix
     $('.custom-quick-search .more-btn.toggle-link').on('click', function(e) {
