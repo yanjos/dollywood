@@ -1,0 +1,151 @@
+.logo.header {
+    background:none repeat scroll 0 0 #9eb9d5;
+}
+.card-required-field label:after, #termDetailLink:after {
+    content:'*';
+}
+.card-required-field[for="j_idt48-sectionOrder-j_idt271-paymentInfoFieldOrder-cardHolderName"]:after {
+    content:'';
+}
+#header {
+    background:none repeat scroll 0 0 #395575;
+    border-bottom:2px solid #395575;
+    color:#fff;
+}
+#header .ui-btn-up-c, .ui-scrollview-view .ui-btn-up-c {
+    background-image:linear-gradient(#cedce9, #a0bad5);
+	color:#395575;
+}
+a#termDetailLink {
+    color:#395575;
+}
+a#termDetailLink:hover, a#termDetailLink:active {
+    text-decoration:underline;
+}
+.ui-content {
+    background-color:#e6e4dc;
+}
+.ui-focus, .ui-btn:focus {
+    box-shadow:0 0 3px #395575 inset, 0 0 9px #395575;
+}
+.header>img {
+    margin-top:14px;
+    width:20%;
+}
+.ui-menu-button-container .ui-btn .ui-icon {
+    height:100%;
+}
+.ui-btn-up-b {
+    background:linear-gradient(#cedce9, #a0bad5) repeat scroll 0 0 #a0bad5;
+}
+.dwv.ui-header.ui-bar-b {
+    background:none repeat scroll 0 0 #a0bad5;
+}
+.ui-msm-profileloginpagebean.ui-page.ui-body-c.ui-page-active.portrait {
+    background-color:#f4f3ed;
+}
+.ui-bar-b {
+    background:linear-gradient(#6f91b8, #395575) repeat scroll 0 0 #395575!important;
+}
+.ui-menu-button-container .ui-btn .ui-btn-inner {
+    line-height:16px;
+}
+.ui-menu-button-container .ui-btn .ui-btn-inner .ui-btn-text {
+    background-image:linear-gradient(#6f91b8, #395575);
+    border-radius:4px;
+    color:#fff;
+    padding-top:11px;
+    height:24%;
+    line-height:1em;
+    vertical-align:middle;
+}
+#footer .ui-btn-up-c {
+    background-image:linear-gradient(#6f91b8, #395575);
+    min-height:69px!important;
+}
+.ui-dialog-contain {
+    background:none repeat scroll 0 0 #395575;
+}
+#footer .ui-btn.ui-btn-hover-c {
+    border-color:#3aa8c7!important;
+    background:#3aa8c7!important;
+    min-height:69px!important;
+}
+.ui-content .ui-btn.ui-btn-hover-c{
+    background:#3aa8c7!important;
+	color:#fff;
+}
+.ui-btn-active {
+    background:linear-gradient(#6f91b8, #395575) repeat scroll 0 0 #6f91b8;
+}
+.ui-content .ui-btn-up-c {
+    background:#395575!important;
+    color:#fff;
+}
+.ui-room-type-description, .ui-room-type-name, .ui-rate-type-description, .ui-rate-type-name {
+    color:#563b1a;
+}
+li.ui-li.ui-li-static.ui-btn-up-c {
+    color:#395575;
+    background:#fff!important;
+}
+.ui-listview li.ui-li.ui-li-static.ui-btn-up-c.ui-corner-top.ui-corner-bottom.ui-li-last {
+    background:#fff!important;
+    color:#395575;
+}
+#headerRightBtn.ui-btn-hover-c, #headerLeftBtn.ui-btn-hover-c {
+    background-image: linear-gradient(#a0bad5,#395575);
+	color: #fff;
+}
+.ui-menu-button-container .ui-menu-button .ui-btn-up-c {
+    background:transparent!important;
+}
+.ui-menu-button-container .ui-menu-button .ui-btn.ui-btn-hover-c {
+    background:#eae6cc!important;
+}
+.ui-body-c .ui-link {
+    color:#6f91b8;
+}
+.ui-body-c .ui-link:hover {
+    color:#3aa8c7!important;
+}
+.ui-btn-hover-b {
+    background:linear-gradient(#6f91b8, #395575) repeat scroll 0 0 #6f91b8;
+}
+.ui-btn-up-b {
+    background:linear-gradient(#6f91b8, #395575) repeat scroll 0 0 #6f91b8;
+}
+.ui-tabbedBar {
+    border-color:#6f91b8;
+}
+.ui-focus, .ui-btn:focus {
+    box-shadow:0 0 3px #6f91b8 inset, 0 0 9px #6f91b8!important;
+}
+.ui-input-text.ui-focus, .ui-input-search.ui-focus {
+    box-shadow:0 0 12px #6f91b8!important;
+}
+.ui-btn-inner {
+    overflow:visible;
+    white-space:normal!important;
+}
+.ui-menu-button-container .ui-btn {
+    width:93px!important;
+}
+.ui-expander-indicator-more a, .ui-expander-indicator-less a {
+    color:#9a8348;
+}
+.ui-btn-container {
+    padding-top:10px;
+}
+.ui-menu-button-container .ui-menu-button {
+    padding:0!important;
+}
+p#vipCode, p#passportNo, p#countryOfIssue, p#placeOfIssue, p#effectiveDate {
+    display:none;
+}
+.ui-guest-rooms-list li .ui-room-type-description {
+    display:block;
+}
+.ui-navbar li .ui-btn-icon-top .ui-btn-inner {
+    padding-top:30px!important;
+}
