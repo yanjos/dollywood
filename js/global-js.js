@@ -1,10 +1,6 @@
 <script>
 /*LATEST GLOBAL*/
 $(document).ready(function(){
-         /*To install dynamic tag management on your site, insert the following code into the <head> of every page of your site, ideally before other scripts in this section.*/
-    var DTMhead = document.createElement("SCRIPT");
-DTMhead.src="//assets.adobedtm.com/4dbf1b0bd91f84c5d4a9e704564fcffaededdba3/satelliteLib-ea1f2d1a43e93fa4ac7c43df0fc32ec8524903e3.js";
-    document.head.appendChild(DTMhead);
 
 /*For dynamic tag management to function properly, insert the following code just before the closing </body> tag of every page of your site.*/
     var x = document.createElement("SCRIPT");
