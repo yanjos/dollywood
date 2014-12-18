@@ -1,3 +1,6 @@
+.package-info .dynamic-item-action a.button {
+    display: none!important;
+}
 #arrival-info, #departure-info, #login {
     display:none!important;
 }
