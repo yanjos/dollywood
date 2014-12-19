@@ -1,3 +1,6 @@
+.user-info a {
+	display: none !important;
+}
 .package-info .dynamic-item-action a.button {
     display:none!important;
 }
@@ -55,5 +58,5 @@
     font-size:14px!important;
 }
 a#save_confirmation_as_pdf {
-	display: none;
+    display:none;
 }
