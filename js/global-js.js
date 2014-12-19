@@ -102,7 +102,7 @@ $('footer').append('<button onclick="TogetherJS(this); return false;">Let\'s Do 
     }
     /*Confirmation Page Add Custom Confirmation Section top left to match comps END*/
     /*Modify/Cancel custom jquery changes title on modify/cancel page*/
-    $('.custom-modify-cancel-reservation .dynamic-headline').text('Cancel Reservation');
+    $('.custom-modify-cancel-reservation .dynamic-headline').text('Reservation Details');
 });
 
 $(document).ready(function(){
