@@ -95,6 +95,8 @@ $('footer').append('<button onclick="TogetherJS(this); return false;">Let\'s Do 
         $customConfirmationDetailsSection.find('a').addClass('button');
         if($('.confirmation').length){
             $('<a href="/bp/retrieve_reservation.jsp" class="button">Cancel Reservation</a>').appendTo($customConfirmationDetailsSection);
+            /*Adds confirmation text*/
+            $('.custom-confirmation-details .module').append('<p>Thank you! Please print this confirmation for your records. An email confirming your reservation has been sent to the address provided.</p><p>Please call (800) 365-5996 with any questions or concerns.</p>');
         }
         $('#openmap').addClass('button');
     }
