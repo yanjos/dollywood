@@ -1,5 +1,9 @@
 <script>
 /*LATEST GLOBAL*/
+$(document).on("dialogopen", ".ui-dialog", function(event, ui) {
+  $('.package-info .ui-dialog').prepend('<span class="ui-helper-hidden-accessible"><input type="text"/></span>');
+});
+
 $(document).ready(function(){
 
 /*For dynamic tag management to function properly, insert the following code just before the closing </body> tag of every page of your site.*/
@@ -90,7 +94,7 @@ $('footer').append('<button onclick="TogetherJS(this); return false;">Let\'s Do 
         $confirmationActionLinks.appendTo($customConfirmationDetailsSection);
         $customConfirmationDetailsSection.find('a').addClass('button');
         if($('.confirmation').length){
-            $('<a href="/bp/retrieve_reservation.jsp" class="button">Modify/Cancel Reservation</a>').appendTo($customConfirmationDetailsSection);
+            $('<a href="/bp/retrieve_reservation.jsp" class="button">Cancel Reservation</a>').appendTo($customConfirmationDetailsSection);
         }
         $('#openmap').addClass('button');
     }
