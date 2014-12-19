@@ -48,9 +48,12 @@
 .reg_cc_exp .ui-combobox-input {
     width:64px!important;
 }
-.room-total-estimate{
-	margin-top:-15px;
+.room-total-estimate {
+    margin-top:-15px;
 }
 #rate-details table {
-	font-size: 14px !important;
+    font-size:14px!important;
+}
+a#save_confirmation_as_pdf {
+	display: none;
 }
