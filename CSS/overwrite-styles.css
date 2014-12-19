@@ -23,9 +23,6 @@
     padding:5px 10px;
     margin:0!important;
 }
-#head-nav {
-    display:none;
-}
 .webkit select {
     background:#fff url(//images.webhotel.microsdc.us/dollywood/get/w/21/h/15/dd-arrow-blue.image?) right center no-repeat!important;
     height:15px!important;
@@ -33,9 +30,12 @@
     padding-right:25px!important;
 }
 #modifyReservationForm button {
-    display: none;
+    display:none;
 }
-
 #modifyReservationForm .button.secondary[data-tag="wh-cancel-reservation-click"] {
-    display: block;
+    display:block;
+}
+.account-view-reservation .custom-confirmation-details, .account-view-reservation .custom-reservation-rate-details {
+    width:100%!important;
+    float:none;
 }
