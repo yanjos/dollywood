@@ -33,10 +33,10 @@
     padding-right:25px!important;
 }
 #modifyReservationForm button {
-    display:none !important;
+    display:none!important;
 }
 #modifyReservationForm .button.secondary[data-tag="wh-cancel-reservation-click"] {
-    display:block !important;
+    display:block!important;
 }
 .account-view-reservation .custom-confirmation-details, .account-view-reservation .custom-reservation-rate-details {
     width:100%!important;
@@ -57,6 +57,6 @@
 #rate-details table {
     font-size:14px!important;
 }
-a#save_confirmation_as_pdf {
+a#save_confirmation_as_pdf, .go-to-my-account {
     display:none;
 }
