@@ -1,20 +1,11 @@
 .package-info .dynamic-item-action a.button {
-    display: none!important;
+    display:none!important;
 }
 #arrival-info, #departure-info, #login {
     display:none!important;
 }
-.masthead {
-    height:120px!important;
-}
 .checkoutDay-label {
     padding-top:8px;
-}
-select {
-    display:inline-block!important;
-}
-.ui-combobox {
-    display:none!important;
 }
 #checkoutYear, #checkinYear {
     min-width:65px;
@@ -24,9 +15,6 @@ select {
 }
 #no-results-messaging .message-dotted {
     display:block!important;
-}
-.custom-header {
-    height:120px!important;
 }
 .booking-path label.required:after {
     content:'*'
@@ -39,7 +27,7 @@ select {
     display:none;
 }
 .webkit select {
-    background:#fff url(//imageserver.microswebhotel.com/dollywood/get/w/21/h/15/dd-arrow-blue.jpg?) right center no-repeat!important;
+    background:#fff url(//images.webhotel.microsdc.us/dollywood/get/w/21/h/15/dd-arrow-blue.image?) right center no-repeat!important;
     height:15px!important;
     margin-right:6px;
     padding-right:25px!important;
