@@ -101,6 +101,8 @@ $('footer').append('<button onclick="TogetherJS(this); return false;">Let\'s Do 
         $('#openmap').addClass('button');
     }
     /*Confirmation Page Add Custom Confirmation Section top left to match comps END*/
+    /*Modify/Cancel custom jquery changes title on modify/cancel page*/
+    $('.custom-modify-cancel-reservation .dynamic-headline').text('Cancel Reservation');
 });
 
 $(document).ready(function(){
