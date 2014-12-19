@@ -42,3 +42,10 @@
 #vipCode, #middleName, #passport-info-fields, #nationality, #title, #dateofbirth, #gender {
     display:none!important;
 }
+.reg_cc_exp .ui-combobox{
+	margin-right:25px !important;
+}
+
+.reg_cc_exp .ui-combobox-input{
+	width:64px !important;
+}
